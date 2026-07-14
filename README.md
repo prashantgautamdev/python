@@ -71,7 +71,7 @@ Then open:
 
 After a few minutes, your site will be available at:
 
-- `https://github.com/prashantgautamdev/python/`
+- `https://github.com/prashantgautamdev/Python_Full_Notbook`
 
 ## Netlify Deployment (Optional)
 
