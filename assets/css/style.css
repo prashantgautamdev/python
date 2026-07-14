@@ -463,3 +463,27 @@ mark.hl {
     padding: 2px 4px;
     border-radius: 8px
 }
+
+/* Layout helper classes (safe non-overlapping stacking) */
+.chapter-section {
+    height: auto;
+    min-height: fit-content;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card {
+    position: relative;
+    height: auto;
+    overflow: visible;
+}
+
+.chapter-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
