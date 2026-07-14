@@ -71,7 +71,7 @@ Then open:
 
 After a few minutes, your site will be available at:
 
-- `https://YOUR_USERNAME.github.io/YOUR_REPOSITORY_NAME/`
+- `https://github.com/prashantgautamdev/python/`
 
 ## Netlify Deployment (Optional)
 
