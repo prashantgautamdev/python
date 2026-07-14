@@ -470,17 +470,15 @@ mark.hl {
     min-height: fit-content;
 }
 
+
 .content-wrapper {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.card {
-    position: relative;
-    height: auto;
-    overflow: visible;
-}
+
+
 
 .chapter-grid {
     display: grid;
