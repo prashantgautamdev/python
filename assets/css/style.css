@@ -148,14 +148,40 @@ header.site-header {
 
 @media (max-width: 960px) {
     .layout {
-        grid-template-columns: 1fr
+        grid-template-columns: 1fr;
+        gap: 20px;
     }
 
     .sidebar {
         position: relative;
-        top: auto
+        top: auto;
+    }
+
+    .main-inner {
+        gap: 16px;
+    }
+
+    .sticky-toc {
+        top: 96px;
+        margin-bottom: 16px;
     }
 }
+
+@media (max-width: 600px) {
+    .container {
+        padding: 12px;
+    }
+
+    .main-inner {
+        padding: 14px;
+    }
+
+    .sticky-toc {
+        top: 88px;
+        padding: 10px;
+    }
+}
+
 
 .sidebar {
     position: sticky;
